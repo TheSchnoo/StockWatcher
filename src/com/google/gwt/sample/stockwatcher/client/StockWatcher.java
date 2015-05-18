@@ -2,6 +2,8 @@ package com.google.gwt.sample.stockwatcher.client;
 
   //MERGE TEST?
 
+  //TEST 2
+
 import java.util.ArrayList;
 import java.util.Date;
 

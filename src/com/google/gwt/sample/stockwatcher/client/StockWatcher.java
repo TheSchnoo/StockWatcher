@@ -54,6 +54,9 @@ public class StockWatcher implements EntryPoint {
   public void onModuleLoad() {
 	  
 	  // ALVIN ADDED A COMMENT HERE, MUAHAHAHAHA
+	  // these comments need to be merged in the master branch
+	  // if these changes are in the master branch, alvin merged his branch to the master branch successfully.
+	  // hooray!!
 	  
     // Check login status using login service.
     LoginServiceAsync loginService = GWT.create(LoginService.class);

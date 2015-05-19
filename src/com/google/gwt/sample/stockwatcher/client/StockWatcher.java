@@ -64,6 +64,7 @@ public class StockWatcher implements EntryPoint {
     loginService.login(GWT.getHostPageBaseURL(), new AsyncCallback<LoginInfo>() {
       public void onFailure(Throwable error) {
     	 // alvin introduced a conflict by deleting the line: handleError(error);
+    	  handleError(error);
       }
 
       public void onSuccess(LoginInfo result) {

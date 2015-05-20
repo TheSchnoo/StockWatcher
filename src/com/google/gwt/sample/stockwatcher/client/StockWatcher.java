@@ -63,7 +63,6 @@ public class StockWatcher implements EntryPoint {
     LoginServiceAsync loginService = GWT.create(LoginService.class);
     loginService.login(GWT.getHostPageBaseURL(), new AsyncCallback<LoginInfo>() {
       public void onFailure(Throwable error) {
-    	  handleError(error); // seeing what happen if i call this twice
     	  handleError(error); 
     	  	  
       }

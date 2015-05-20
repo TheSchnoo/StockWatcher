@@ -63,8 +63,11 @@ public class StockWatcher implements EntryPoint {
     LoginServiceAsync loginService = GWT.create(LoginService.class);
     loginService.login(GWT.getHostPageBaseURL(), new AsyncCallback<LoginInfo>() {
       public void onFailure(Throwable error) {
-    	 // alvin introduced a conflict by deleting the line: handleError(error);
-    	  handleError(error);
+    	 
+    	  // deleted: handleError(error)
+    	  // added: OMGWTFBBQLINEOFCODE
+    	  OMGWTFBBQLINEOFCODE; // this needs to be resolved in the merge to master...
+    	  
       }
 
       public void onSuccess(LoginInfo result) {

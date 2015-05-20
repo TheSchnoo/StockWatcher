@@ -63,8 +63,7 @@ public class StockWatcher implements EntryPoint {
     LoginServiceAsync loginService = GWT.create(LoginService.class);
     loginService.login(GWT.getHostPageBaseURL(), new AsyncCallback<LoginInfo>() {
       public void onFailure(Throwable error) {
-    	  handleError(error); // seeing what happen if i call this twice
-    	  handleError(error); 
+    	  alvinBogusMethod();
     	  	  
       }
 
@@ -77,6 +76,15 @@ public class StockWatcher implements EntryPoint {
         }
       }
     });
+  }
+  
+  public int alvinBogusMethod(){
+	  int one = 1;
+	  int two = 2;
+	  
+	  return one + two;
+	  
+	  
   }
 
   private void loadLogin() {

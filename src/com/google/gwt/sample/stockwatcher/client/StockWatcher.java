@@ -64,9 +64,8 @@ public class StockWatcher implements EntryPoint {
     loginService.login(GWT.getHostPageBaseURL(), new AsyncCallback<LoginInfo>() {
       public void onFailure(Throwable error) {
     	 
-    	  // deleted: handleError(error)
-    	  // added: OMGWTFBBQLINEOFCODE
-    	  OMGWTFBBQLINEOFCODE; // this needs to be resolved in the merge to master...
+    	  handleError(error); // deleted alvin's shitty line of code to get the app working again
+    	
     	  
       }
 

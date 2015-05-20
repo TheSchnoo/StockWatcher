@@ -65,8 +65,8 @@ public class StockWatcher implements EntryPoint {
       public void onFailure(Throwable error) {
     	 
     	  
-    	  OMGWTFBBQLINEOFCODE; // added this line of code, which needs to be included in the master
-    	  //handleError(error) // deleted this to to introduce some conflicts
+    	  // OMGWTFBBQLINEOFCODE; // commented out this bogus line of code,
+    	  handleError(error); //added this line of code back to restore functionality
     	
     	  
       }

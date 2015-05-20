@@ -63,12 +63,12 @@ public class StockWatcher implements EntryPoint {
     LoginServiceAsync loginService = GWT.create(LoginService.class);
     loginService.login(GWT.getHostPageBaseURL(), new AsyncCallback<LoginInfo>() {
       public void onFailure(Throwable error) {
-    	 
     	  
-    	  // OMGWTFBBQLINEOFCODE; // commented out this bogus line of code,
+    	   OMGWTFBBQLINEOFCODE; // commented out this bogus line of code,
     	  handleError(error); //added this line of code back to restore functionality
-    	
-    	  
+    	  EVEN MORE BOGUS LINES
+    	  SOMEONE IS REALLY SCREWING WITH THIS PROGRAM
+    	  AHHHH!! 	  
       }
 
       public void onSuccess(LoginInfo result) {

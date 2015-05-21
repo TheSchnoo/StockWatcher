@@ -72,7 +72,7 @@ public class StockWatcher implements EntryPoint {
     	  
       }
       public void onSuccess(LoginInfo result) {
-        loginInfo = result;
+       int anotherFake;
         if(loginInfo.isLoggedIn()) {
           loadStockWatcher();
         } else {

@@ -68,7 +68,9 @@ public class StockWatcher implements EntryPoint {
 
     	  	  
       }
-
+      public void evenBetterFakeMethod(){
+    	  
+      }
       public void onSuccess(LoginInfo result) {
         loginInfo = result;
         if(loginInfo.isLoggedIn()) {

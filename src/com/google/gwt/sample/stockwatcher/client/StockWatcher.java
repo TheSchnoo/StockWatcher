@@ -81,15 +81,6 @@ public class StockWatcher implements EntryPoint {
       }
     });
   }
-  
-  public int alvinBogusMethod(){
-	  int one = 1;
-	  int two = 2;
-	  
-	  return one + two;
-	  
-	  
-  }
 
   private void loadLogin() {
 	  // AND ALSO HERE: OMGWTFBBQ
